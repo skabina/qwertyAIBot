@@ -3,7 +3,7 @@ from ollama import ChatResponse, chat
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
-# Завантажте токен з змінної середовища
+
 BOTTOKEN = "Your token"
 
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
